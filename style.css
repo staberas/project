@@ -76,7 +76,10 @@ padding-left: 30%;
 #head-title{
 	margin-right: 10%;
 	margin-left: 10%;
+	max-height: 20%;
 	color: white; 
+	overflow: hidden;
+        text-overflow: ellipsis;
 }
 #bottom-page{
 	background-color: #5db7ff;
