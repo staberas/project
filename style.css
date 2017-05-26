@@ -76,7 +76,7 @@ padding-left: 30%;
 #head-title{
 	margin-right: 10%;
 	margin-left: 10%;
-	max-height: 20%;
+	max-height: 120px;
 	color: white; 
 	overflow: hidden;
         text-overflow: ellipsis;
