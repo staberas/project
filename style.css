@@ -3,6 +3,7 @@ html{
 }
 body{
 background-color: #b76ab7;
+animation: anime 6s infinite;
 /* full page no margin */
 margin: 0px;	
 height: 100%;
@@ -98,6 +99,7 @@ padding-left: 30%;
 #input-items{
 	text-align: center;
 
+	
 }
 #nn
 {
@@ -174,3 +176,19 @@ textarea {
     margin-right: 20%; 
     margin-left: 20%;
 }
+
+@keyframes anime {
+  0% {
+  background-color: #b76ab7;
+  }
+  30% {
+  background-color: #c353c3;
+  }
+  80% {
+  background-color: #7d2f7d;
+  }
+  100% {
+  background-color: #b15ab1;
+   }
+}
+
