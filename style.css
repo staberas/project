@@ -93,7 +93,9 @@ padding-left: 30%;
     height: 47%;
     background-color: #17c2a4;
     text-align: center;
-    color: white;	
+    color: white;
+    position: relative; /*might not need this */
+    width: 100%;
 }
 #mid-title{
 padding-top: 4px; 	
