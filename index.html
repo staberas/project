@@ -11,14 +11,17 @@
 <body>
 	<script>
 $( document ).ready(function() {
-  
+  var pop = true;
 
-
+//make sure code executes once and not listen everytime for clicks	
+if(pop == true){
 $( "body" ).click(function() {
-  alert( "Handler for .click() called." );
+  //alert( "Handler for .click() called." );
+	$( "#splash" ).css( "display", "none" );
+	pop = false;
 	//do some random.math animations or wutever 
 });
-	
+}	
 	
 });		
 	</script>
