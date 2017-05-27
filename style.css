@@ -170,6 +170,12 @@ padding-left: 30%;
 padding-top: 8px; /* if time permits titles with uniform styles should be in classes */ 	
 }
 
+td> img {
+    max-width: 100%;
+    height: auto;	
+}
+
+
 #bottom-page{
 	background-color: #5db7ff;
     height: 400px;
