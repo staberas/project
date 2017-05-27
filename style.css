@@ -143,6 +143,9 @@ padding-left: 30%;
 .blog-table{
     padding-bottom: 80px;
 }
+#mid-section > div > table > tbody > tr > th::hover {
+  background: #17c2a4;
+}
 
 #head-title{
 	margin-right: 10%;
