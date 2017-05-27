@@ -139,6 +139,11 @@ padding-left: 30%;
   background-image: linear-gradient(to bottom, #f56f11, #e0a021);
   text-decoration: none;
 }
+
+.blog-table{
+    padding-bottom: 80px;
+}
+
 #head-title{
 	margin-right: 10%;
 	margin-left: 10%;
