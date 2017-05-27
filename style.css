@@ -134,8 +134,9 @@ input
 {
     border-radius: 6px;
     padding: 9px;
+    color: white;	
     background-color: #60829c;	
-    border: 1px solid #e1e1e1;
+    border: 1px solid #60829c;
     text-align: center;
     transition: 300ms;
     box-shadow: 0 0 2px #80d04b;
@@ -158,6 +159,7 @@ th > a
     text-decoration: none;
 }
 textarea {
+    color: white;	
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
