@@ -241,11 +241,9 @@ td> img {
     width: 350px;
     height: 194px;
     background-color: aquamarine;
-    top: 50%;
-    left: 50%;
+    top: 0; left: 0; bottom: 0; right: 0;
     text-align: center;
     color: white;
- 
 }
 
 
