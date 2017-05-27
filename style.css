@@ -85,6 +85,8 @@ padding-left: 30%;
 	color: white; 
 	overflow: hidden;
         text-overflow: ellipsis;
+	/* give a nice header effect */
+	text-shadow: 2px 2px #777777;
 }
 #bottom-page{
 	background-color: #5db7ff;
