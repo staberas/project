@@ -227,3 +227,22 @@ td> img {
     position: absolute;
     display: inline-block;
 }
+
+#splash-screen{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(206, 206, 206, 0.77);
+    z-index: 99;
+}
+
+#intro-msg{
+    position: absolute;
+    width: 350px;
+    height: 194px;
+    background-color: aquamarine;
+    top: 50%;
+    left: 50%;	
+}
+
+
