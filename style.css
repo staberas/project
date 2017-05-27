@@ -89,6 +89,7 @@ padding-left: 30%;
 	/* give a nice header effect */
 	text-shadow: 2px 2px #777777;
 }
+
 #mid-section{
     height: 47%;
     background-color: #17c2a4;
@@ -97,9 +98,11 @@ padding-left: 30%;
     position: relative; /*might not need this */
     width: 100%;
 }
+
 #mid-title{
-padding-top: 4px; 	
+padding-top: 8px; /* if time permits titles with uniform styles should be in classes */ 	
 }
+
 #bottom-page{
 	background-color: #5db7ff;
     height: 400px;
