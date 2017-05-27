@@ -134,6 +134,7 @@ input
 {
     border-radius: 6px;
     padding: 9px;
+    background-color: #60829c;	
     border: 1px solid #e1e1e1;
     text-align: center;
     transition: 300ms;
@@ -160,9 +161,9 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid rgba(77, 155, 218, 0.56);
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: #60829c;
     resize: none;
     width: 470px;
     margin-top: 40px;
