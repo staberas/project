@@ -172,7 +172,8 @@ padding-top: 8px; /* if time permits titles with uniform styles should be in cla
 
 td> img {
     max-width: 100%;
-    height: auto;	
+    height: auto;
+    border-radius: 20px
 }
 
 
