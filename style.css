@@ -141,7 +141,7 @@ input
     transition: 300ms;
     box-shadow: 0 0 2px #80d04b;
 }
-input[type="text" i]{
+input[type="text" i]::placeholder{
  color: white;	
 }
 th
