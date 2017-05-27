@@ -38,6 +38,8 @@ padding-left: 30%;
 	display: inline-block;
         min-height: 50%;
 }
+
+/*ignore bootstrap naming */
 .btn
 {
  /*   width: 150px;
