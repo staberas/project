@@ -10,6 +10,66 @@ margin: 0px;
 height: 100%;
 }
 
+input
+{
+    border-radius: 6px;
+    padding: 9px;
+    color: white;	
+    background-color: #60829c;	
+    border: 1px solid #60829c;
+    text-align: center;
+    transition: 300ms;
+    box-shadow: 0 0 2px #80d04b;
+}
+input[type="text" i]::placeholder{
+ color: white;	
+}
+th
+{
+	padding-right: 9px; 
+	padding-left: 9px;
+}
+th:hover
+{
+ background-color: #6b4343;
+ border-radius: 10px;
+}
+th > a 
+{
+    color: inherit;
+    cursor: cursor;
+    text-decoration: none;
+}
+textarea {
+    color: white;	
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(77, 155, 218, 0.56);
+    border-radius: 4px;
+    background-color: #60829c;
+    resize: none;
+    width: 470px;
+    margin-top: 40px;
+    margin-right: 20%; 
+    margin-left: 20%;
+}
+/*playing with some css animation, */
+@keyframes anime {
+  0% {
+  background-color: #b76ab7;
+  }
+  30% {
+  background-color: #c353c3;
+  }
+  70% {
+  background-color: #7d2f7d;
+  }
+  100% {
+  background-color: #b15ab1;
+   }
+}
+
 #main-nav {
 display: flow-root;
 margin-top: 30px;
@@ -153,63 +213,3 @@ padding-top: 8px; /* if time permits titles with uniform styles should be in cla
     position: absolute;
     display: inline-block;
 }
-input
-{
-    border-radius: 6px;
-    padding: 9px;
-    color: white;	
-    background-color: #60829c;	
-    border: 1px solid #60829c;
-    text-align: center;
-    transition: 300ms;
-    box-shadow: 0 0 2px #80d04b;
-}
-input[type="text" i]::placeholder{
- color: white;	
-}
-th
-{
-	padding-right: 9px; 
-	padding-left: 9px;
-}
-th:hover
-{
- background-color: #6b4343;
- border-radius: 10px;
-}
-th > a 
-{
-    color: inherit;
-    cursor: cursor;
-    text-decoration: none;
-}
-textarea {
-    color: white;	
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid rgba(77, 155, 218, 0.56);
-    border-radius: 4px;
-    background-color: #60829c;
-    resize: none;
-    width: 470px;
-    margin-top: 40px;
-    margin-right: 20%; 
-    margin-left: 20%;
-}
-
-@keyframes anime {
-  0% {
-  background-color: #b76ab7;
-  }
-  30% {
-  background-color: #c353c3;
-  }
-  70% {
-  background-color: #7d2f7d;
-  }
-  100% {
-  background-color: #b15ab1;
-   }
-}
-
