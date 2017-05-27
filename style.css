@@ -1,6 +1,7 @@
 html{
-	min-height: 100%;
+min-height: 100%;
 }
+
 body{
 background-color: #b76ab7;
 animation: anime 6s infinite;
@@ -87,6 +88,11 @@ padding-left: 30%;
         text-overflow: ellipsis;
 	/* give a nice header effect */
 	text-shadow: 2px 2px #777777;
+}
+#mid-section{
+    height: 47%;
+    background-color: #17c2a4;
+	
 }
 #bottom-page{
 	background-color: #5db7ff;
