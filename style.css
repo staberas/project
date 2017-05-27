@@ -139,7 +139,7 @@ padding-left: 30%;
   background-image: linear-gradient(to bottom, #f56f11, #e0a021);
   text-decoration: none;
 }
-.blog-title::hover{
+.blog-title:hover{
     background: #17c2a4;
 }
 .blog-table{
